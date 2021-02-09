@@ -8,7 +8,4 @@
 #define ologk(...)
 #define perflog(...)
 
-#define ologk(...) perflog(PERFLOG_UNKNOWN, __VA_ARGS__)
-extern void perflog(int type, const char *fmt, ...);
-
 #endif
